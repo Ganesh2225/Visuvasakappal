@@ -29,7 +29,7 @@
 
 .client-logo ul li {
     display: inline-block;
-    float: left;
+    /* float: left; */
     padding: 0 10px;
     width: 33.33%;
     margin-bottom: 20px
@@ -5568,7 +5568,7 @@ ol.commentlist li .meta span {
     margin-bottom: 10px
 }
 
-.dlab-team4 .dlab-social-icon li a.site-button.gray-light. .dlab-team5 .dlab-social-icon li a {
+.dlab-team4 .dlab-social-icon li a.site-button.gray-light .dlab-team5 .dlab-social-icon li a {
     background-color: #e0e0e0;
     color: #999;
     line-height: 30px;
@@ -7217,7 +7217,7 @@ ol.commentlist li .meta span {
 .about-bx3 .about-contact-box .rotate-text {
     position: absolute;
     left: -255px;
-    top: 244px;
+    top: 100px;
     height: 50px;
     width: 550px;
     display: inline-block;
@@ -7280,9 +7280,9 @@ ol.commentlist li .meta span {
     position: relative
 }
 
-.about-bx3 .about-img-box .about-img-one {
+/*.about-bx3 .about-img-box .about-img-one {
     padding: 0 0 160px 75px
-}
+}*/
 
 .about-bx3 .about-img-box .about-img-one img {
     width: 100%
@@ -7342,8 +7342,9 @@ ol.commentlist li .meta span {
     background: #fff;
     z-index: 99;
     padding: 50px 40px;
-    border: 1px solid #ededed;
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .05)
+    border: 2px solid #ededed;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .05);
+    height:95%;
 }
 
 .services-box .icon-lg {

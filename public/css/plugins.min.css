@@ -279,13 +279,13 @@ select {
 select {
     word-wrap: normal
 }
-
+/* 
 [type=button],
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
-}
+    /* -webkit-appearance: button; */
+ */
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -311,9 +311,8 @@ input[type=radio] {
 input[type=date],
 input[type=datetime-local],
 input[type=month],
-input[type=time] {
-    -webkit-appearance: listbox
-}
+input[type=time] 
+
 
 textarea {
     overflow: auto;
@@ -350,7 +349,7 @@ progress {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: none
+    /* -webkit-appearance: none */
 }
 
 [type=search]::-webkit-search-decoration {
@@ -627,9 +626,15 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+    justify-content: space-around;
 }
-
+.rowone{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 .no-gutters {
     margin-right: 0;
     margin-left: 0
@@ -1309,7 +1314,8 @@ pre code {
     .col-lg-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%
+        max-width: 50%;
+
     }
     .col-lg-7 {
         -ms-flex: 0 0 58.333333%;
@@ -10410,7 +10416,7 @@ a.text-dark:hover {
 
 .owl-carousel .owl-stage {
     position: relative;
-    -ms-touch-action: pan-Y
+    /* -ms-touch-action: pan-Y */
 }
 
 .owl-carousel .owl-stage:after {
@@ -10425,7 +10431,7 @@ a.text-dark:hover {
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0)
+    /* -webkit-transform: translate3d(0, 0, 0) */
 }
 
 .owl-carousel .owl-controls .owl-dot,
@@ -10460,7 +10466,7 @@ a.text-dark:hover {
 .owl-carousel .owl-item {
     min-height: 1px;
     float: left;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -10526,7 +10532,7 @@ a.text-dark:hover {
     background: url(owl.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
-    -webkit-backface-visibility: hidden;
+    
     -webkit-transition: scale .1s ease;
     -moz-transition: scale .1s ease;
     -ms-transition: scale .1s ease;
@@ -10913,7 +10919,7 @@ select.mobile-device {
 .mfp-wrap {
     z-index: 1043;
     outline: 0 !important;
-    -webkit-backface-visibility: hidden
+    /* -webkit-backface-visibility: hidden */
 }
 
 .mfp-container {
@@ -11027,7 +11033,7 @@ button.mfp-close {
     cursor: pointer;
     background: 0 0;
     border: 0;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     display: block;
     outline: 0;
     padding: 0;
@@ -11370,7 +11376,7 @@ screen and (max-height:300px) {
 	Animated Css
 ==========================*/
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
